@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px 125px 100px 125px;
+  padding: 100px 125px 100px 125px;
 }
 .welcome-title {
   text-align: center;
