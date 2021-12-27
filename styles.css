@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+@import "reset.css";
+@import "variables.css";
+@import "body.css";
+
+@import "components/screen-header.css";
+@import "components/top-bar.css";
+@import "components/nav-bar.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alarm.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+@import "components/no-landscape.css";
+
+@import "page/login.css";
+@import "page/friends.css";
+@import "page/search.css";
+@import "page/more.css";
+@import "page/chat.css";
+@import "page/settings.css";
+@import "page/message.css";
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

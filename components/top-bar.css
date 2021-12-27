@@ -1,0 +1,9 @@
+.top-bar {
+  box-sizing: border-box;
+  width: 750px;
+  position: fixed;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}

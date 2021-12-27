@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Chat!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="message-screen">
+    <div class="top-bar">
+      <div class="top-bar_column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="top-bar_column">
+        <span>12:21</span>
+      </div>
+      <div class="top-bar_column">
+        <i class="fas fa-lock"></i>
+        <span>11%</span>
+        <i class="fas fa-battery-half fa-lg"></i>
+        <i class="fas fa-bolt fa-xs"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header_column">
+        <a href="chat.html"> <i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header_column">
+        <h1 class="alt-header_title">Ed Sheeran</h1>
+      </div>
+      <div class="alt-header_column">
+        <span> <i class="fas fa-search fa-3x"></i></span>
+        <span><i class="fas fa-bars fa-3x"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-message">
+      <div class="message_timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img
+          src="https://i.scdn.co/image/ab6761610000e5eb12a2ef08d00dd7451a6dbed6"
+        />
+        <div class="message-row_content">
+          <span class="message_author">Ed Sheeran</span>
+          <div class="message_info">
+            <spna class="message_bubble">Hi!</spna>
+            <spna class="message_time">12:21</spna>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row_own">
+        <div class="message-row_content">
+          <div class="message_info">
+            <spna class="message_bubble">Hi!</spna>
+            <spna class="message_time">12:21</spna>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply_column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="reply_column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>your screen is too big</span>
+    </div>
+    <div id="no-landscape">
+      <span>please rotate your phone</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
